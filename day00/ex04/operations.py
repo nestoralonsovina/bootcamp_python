@@ -22,6 +22,7 @@ def main():
         usage()
         exit(2)
 
+
     print(f"Sum:\t\t {args[0] + args[1]}")
     print(f"Difference:\t {args[0] - args[1]}")
     print(f"Product:\t {args[0] * args[1]}")
