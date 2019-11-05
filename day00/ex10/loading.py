@@ -2,6 +2,11 @@ import time
 import sys
 
 def ft_progress(iter_input):
+    total = len(iter_input)
+    n = 100
+
+    frac = n / total
+    percentage = frac * 100
 
     sys.stdout
 
